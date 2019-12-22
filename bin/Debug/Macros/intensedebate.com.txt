@@ -1,0 +1,17 @@
+--> mode_register
+https://intensedebate.com/signup|0|0|URL
+id|txtName|0|USERNAME
+id|txtEmail|0|EMAIL
+id|txtPassword|0|PASSWORD
+id|txtPassword2|0|PASSWORD
+Your account has been created|0|0|R_SUCCESS_FLAG
+--> mode_login_and_post
+https://intensedebate.com/signup|0|0|URL
+id|txtName|0|USERNAME
+id|txtEmail|0|EMAIL
+id|txtPassword|0|PASSWORD
+id|txtPassword2|0|PASSWORD
+Your account has been created|0|0|R_SUCCESS_FLAG
+--> intensedebate.com
+--> article_rank_jester
+--> Creates a ...

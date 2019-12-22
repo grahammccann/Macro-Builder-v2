@@ -1,0 +1,21 @@
+--> mode_register
+https://www.formlets.com/signup/|0|0|URL
+id|FirstName|0|USERNAME
+name|lastname|0|USERNAME
+name|email|0|EMAIL
+id|pwd|0|PASSWORD
+https://www.formlets.com/signup/|0|0|RECAPTCHA_V2
+xpath|/html/body/section[2]/div/div/div/div/form/button|0|BUTTON_CLICK
+/logout/|0|0|R_SUCCESS_FLAG
+--> mode_login_and_post
+https://www.formlets.com/signup/|0|0|URL
+id|FirstName|0|USERNAME
+name|lastname|0|USERNAME
+name|email|0|EMAIL
+id|pwd|0|PASSWORD
+https://www.formlets.com/signup/|0|0|RECAPTCHA_V2
+xpath|/html/body/section[2]/div/div/div/div/form/button|0|BUTTON_CLICK
+/logout/|0|0|R_SUCCESS_FLAG
+--> formlets.com
+--> article_rank_jester
+--> Creates a ...

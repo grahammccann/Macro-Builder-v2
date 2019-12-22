@@ -1,0 +1,21 @@
+--> mode_register
+https://www.spreaker.com/signup|0|0|URL
+id|fullname|0|USERNAME
+id|email|0|EMAIL
+id|password|0|PASSWORD
+id|password_confirm|0|PASSWORD
+id|terms_accepted|0|BUTTON_CLICK
+https://www.spreaker.com/signup|0|0|RECAPTCHA_V2
+Welcome|0|0|R_SUCCESS_FLAG
+--> mode_login_and_post
+https://www.spreaker.com/signup|0|0|URL
+id|fullname|0|USERNAME
+id|email|0|EMAIL
+id|password|0|PASSWORD
+id|password_confirm|0|PASSWORD
+id|terms_accepted|0|BUTTON_CLICK
+https://www.spreaker.com/signup|0|0|RECAPTCHA_V2
+Welcome|0|0|R_SUCCESS_FLAG
+--> letterboxd.com
+--> article_rank_jester
+--> Creates a ...

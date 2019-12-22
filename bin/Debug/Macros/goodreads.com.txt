@@ -1,0 +1,15 @@
+--> mode_register
+https://www.goodreads.com/user/sign_up|0|0|URL
+id|user_first_name|0|USERNAME
+id|user_email|0|EMAIL
+id|user_password|0|PASSWORD
+Skip this step|0|0|R_SUCCESS_FLAG
+--> mode_login_and_post
+https://www.goodreads.com/user/sign_up|0|0|URL
+id|user_first_name|0|USERNAME
+id|user_email|0|EMAIL
+id|user_password|0|PASSWORD
+Skip this step|0|0|R_SUCCESS_FLAG
+--> goodreads.com
+--> article_rank_jester
+--> Creates a profile page ...

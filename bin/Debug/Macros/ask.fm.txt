@@ -1,0 +1,35 @@
+--> mode_register
+https://ask.fm/signup|0|0|URL
+id|user_email|0|EMAIL
+id|user_name|0|USERNAME
+id|user_login|0|USERNAME
+id|user_password|0|PASSWORD
+id|user_terms_of_use|0|BUTTON_CLICK
+id|user_privacy_policy|0|BUTTON_CLICK
+id|user_parent_сonsent|0|BUTTON_CLICK
+id|user_ads_сonsent|0|BUTTON_CLICK
+id|user_third_parties_consent|0|BUTTON_CLICK
+id|date_day|18|SELECT
+id|date_month|June|SELECT
+id|date_year|1988|SELECT
+xpath|/html/body/main/div[2]/div/form/div[6]/input|0|BUTTON_CLICK
+You have successfully created your account!|0|0|R_SUCCESS_FLAG
+--> mode_login_and_post
+https://ask.fm/signup|0|0|URL
+id|user_email|0|EMAIL
+id|user_name|0|USERNAME
+id|user_login|0|USERNAME
+id|user_password|0|PASSWORD
+id|user_terms_of_use|0|BUTTON_CLICK
+id|user_privacy_policy|0|BUTTON_CLICK
+id|user_parent_сonsent|0|BUTTON_CLICK
+id|user_ads_сonsent|0|BUTTON_CLICK
+id|user_third_parties_consent|0|BUTTON_CLICK
+id|date_day|18|SELECT
+id|date_month|June|SELECT
+id|date_year|1988|SELECT
+xpath|/html/body/main/div[2]/div/form/div[6]/input|0|BUTTON_CLICK
+You have successfully created your account!|0|0|R_SUCCESS_FLAG
+--> ask.fm
+--> article_rank_jester
+--> Creates a ...

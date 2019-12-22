@@ -1,0 +1,20 @@
+--> mode_register
+https://www.wraithseo.com/register.php|0|0|URL
+id|txtUsername|0|USERNAME
+id|txtPassword|0|PASSWORD
+id|txtPassword2|0|PASSWORD
+id|txtEmail|0|EMAIL
+id|txtCountry|0|SELECT
+https://www.wraithseo.com/register.php|0|0|RECAPTCHA_V2
+name|submitRegistration|0|BUTTON_CLICK
+You have successfully created your account!|0|0|R_SUCCESS_FLAG
+--> mode_login_and_post
+https://www.wraithseo.com/login.php|0|0|URL
+id|txtUsername|0|USERNAME
+id|txtPassword|0|PASSWORD
+https://www.wraithseo.com/login.php|0|0|RECAPTCHA_V2
+name|submitLogin|0|BUTTON_CLICK
+logout.php|0|0|L_SUCCESS_FLAG
+--> wraithseo.com
+--> article_rank_jester
+--> Creates a ...

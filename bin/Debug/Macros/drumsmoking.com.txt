@@ -1,0 +1,29 @@
+--> mode_register
+http://www.drumsmoking.com/register.php|0|0|URL
+id|regusername|0|USERNAME
+id|password|0|PASSWORD
+id|passwordconfirm|0|PASSWORD
+id|email|0|EMAIL
+id|emailconfirm|0|EMAIL
+id|humanverify|0|TEXT_CAPTCHA
+id|cb_adminemail|0|EMAIL
+id|cb_showemail|0|EMAIL
+id|cb_rules_agree|0|BUTTON_CLICK
+xpath|//*[@id="registerform"]/div[3]/div/input[10]|0|BUTTON_CLICK
+You have successfully created your account!|0|0|R_SUCCESS_FLAG
+--> mode_login_and_post
+http://www.drumsmoking.com/register.php|0|0|URL
+id|regusername|0|USERNAME
+id|password|0|PASSWORD
+id|passwordconfirm|0|PASSWORD
+id|email|0|EMAIL
+id|emailconfirm|0|EMAIL
+id|humanverify|0|TEXT_CAPTCHA
+id|cb_adminemail|0|EMAIL
+id|cb_showemail|0|EMAIL
+id|cb_rules_agree|0|BUTTON_CLICK
+xpath|//*[@id="registerform"]/div[3]/div/input[10]|0|BUTTON_CLICK
+You have successfully created your account!|0|0|R_SUCCESS_FLAG
+--> drumsmoking.com
+--> article_rank_jester
+--> Creates a ...
