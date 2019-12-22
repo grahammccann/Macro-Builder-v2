@@ -301,7 +301,7 @@ namespace MacroBuilderV2
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(976, 211);
+            this.tabPage1.Size = new System.Drawing.Size(976, 127);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "FORM HTML ELEMENTS / MACRO OUTPUT";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -317,7 +317,7 @@ namespace MacroBuilderV2
             this.listViewMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listViewMain.Location = new System.Drawing.Point(3, 3);
             this.listViewMain.Name = "listViewMain";
-            this.listViewMain.Size = new System.Drawing.Size(970, 205);
+            this.listViewMain.Size = new System.Drawing.Size(970, 121);
             this.listViewMain.TabIndex = 0;
             this.listViewMain.UseCompatibleStateImageBehavior = false;
             this.listViewMain.View = System.Windows.Forms.View.Details;
@@ -350,7 +350,7 @@ namespace MacroBuilderV2
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(976, 211);
+            this.tabPage3.Size = new System.Drawing.Size(976, 127);
             this.tabPage3.TabIndex = 3;
             this.tabPage3.Text = "UPLOAD / SAVE MACRO CODE";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -367,7 +367,7 @@ namespace MacroBuilderV2
             this.tableLayoutPanel.Name = "tableLayoutPanel";
             this.tableLayoutPanel.RowCount = 1;
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(716, 205);
+            this.tableLayoutPanel.Size = new System.Drawing.Size(716, 121);
             this.tableLayoutPanel.TabIndex = 4;
             // 
             // groupBoxLoginAndPost
@@ -378,7 +378,7 @@ namespace MacroBuilderV2
             this.groupBoxLoginAndPost.Controls.Add(this.txtBoxUploadLoginAndPostMacro);
             this.groupBoxLoginAndPost.Location = new System.Drawing.Point(361, 3);
             this.groupBoxLoginAndPost.Name = "groupBoxLoginAndPost";
-            this.groupBoxLoginAndPost.Size = new System.Drawing.Size(352, 199);
+            this.groupBoxLoginAndPost.Size = new System.Drawing.Size(352, 115);
             this.groupBoxLoginAndPost.TabIndex = 5;
             this.groupBoxLoginAndPost.TabStop = false;
             this.groupBoxLoginAndPost.Text = "Login And Post Macro:";
@@ -392,7 +392,7 @@ namespace MacroBuilderV2
             this.txtBoxUploadLoginAndPostMacro.Multiline = true;
             this.txtBoxUploadLoginAndPostMacro.Name = "txtBoxUploadLoginAndPostMacro";
             this.txtBoxUploadLoginAndPostMacro.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtBoxUploadLoginAndPostMacro.Size = new System.Drawing.Size(346, 177);
+            this.txtBoxUploadLoginAndPostMacro.Size = new System.Drawing.Size(346, 93);
             this.txtBoxUploadLoginAndPostMacro.TabIndex = 0;
             // 
             // groupBoxRegister
@@ -401,7 +401,7 @@ namespace MacroBuilderV2
             this.groupBoxRegister.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBoxRegister.Location = new System.Drawing.Point(3, 3);
             this.groupBoxRegister.Name = "groupBoxRegister";
-            this.groupBoxRegister.Size = new System.Drawing.Size(352, 199);
+            this.groupBoxRegister.Size = new System.Drawing.Size(352, 115);
             this.groupBoxRegister.TabIndex = 4;
             this.groupBoxRegister.TabStop = false;
             this.groupBoxRegister.Text = "Register Macro:";
@@ -415,7 +415,7 @@ namespace MacroBuilderV2
             this.txtBoxUploadRegisterMacro.Multiline = true;
             this.txtBoxUploadRegisterMacro.Name = "txtBoxUploadRegisterMacro";
             this.txtBoxUploadRegisterMacro.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtBoxUploadRegisterMacro.Size = new System.Drawing.Size(346, 177);
+            this.txtBoxUploadRegisterMacro.Size = new System.Drawing.Size(346, 93);
             this.txtBoxUploadRegisterMacro.TabIndex = 0;
             // 
             // groupBoxSettings
@@ -434,7 +434,7 @@ namespace MacroBuilderV2
             this.groupBoxSettings.Dock = System.Windows.Forms.DockStyle.Right;
             this.groupBoxSettings.Location = new System.Drawing.Point(719, 3);
             this.groupBoxSettings.Name = "groupBoxSettings";
-            this.groupBoxSettings.Size = new System.Drawing.Size(254, 205);
+            this.groupBoxSettings.Size = new System.Drawing.Size(254, 121);
             this.groupBoxSettings.TabIndex = 3;
             this.groupBoxSettings.TabStop = false;
             this.groupBoxSettings.Text = "Settings:";

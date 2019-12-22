@@ -67,6 +67,12 @@ namespace MacroBuilderV2
             return uri.Host.Replace("www.", "");
         }
 
+        /// <summary>
+        /// This function tries to fill in using real credentials the form when AutoFill is pressed.
+        /// </summary>
+        /// <param name="account"></param>
+        /// <param name="inputValue"></param>
+        /// <returns></returns>
         public static string GetAccountDetails(string account, string inputValue)
         {
             string[] macro = account.Split('|');

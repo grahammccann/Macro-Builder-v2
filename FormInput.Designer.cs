@@ -38,6 +38,8 @@
             this.lblFieldType = new System.Windows.Forms.Label();
             this.BtnInputSelect = new System.Windows.Forms.Button();
             this.groupBoxAIFields = new System.Windows.Forms.GroupBox();
+            this.lblCreateNew = new System.Windows.Forms.Label();
+            this.txtBoxAddNewAIField = new System.Windows.Forms.TextBox();
             this.comboBoxAISelections = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -52,8 +54,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtBoxRawHtmlField = new System.Windows.Forms.TextBox();
             this.BtnInputSubmit = new System.Windows.Forms.Button();
-            this.txtBoxAddNewAIField = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.groupBoxSelectInputRequired.SuspendLayout();
             this.groupBoxAIFields.SuspendLayout();
             this.groupBoxSubmit.SuspendLayout();
@@ -143,7 +143,7 @@
             // 
             // groupBoxAIFields
             // 
-            this.groupBoxAIFields.Controls.Add(this.label7);
+            this.groupBoxAIFields.Controls.Add(this.lblCreateNew);
             this.groupBoxAIFields.Controls.Add(this.txtBoxAddNewAIField);
             this.groupBoxAIFields.Controls.Add(this.comboBoxAISelections);
             this.groupBoxAIFields.Controls.Add(this.label3);
@@ -157,6 +157,22 @@
             this.groupBoxAIFields.TabIndex = 3;
             this.groupBoxAIFields.TabStop = false;
             this.groupBoxAIFields.Text = "<rj-ai-fields.txt>";
+            // 
+            // lblCreateNew
+            // 
+            this.lblCreateNew.AutoSize = true;
+            this.lblCreateNew.Location = new System.Drawing.Point(23, 80);
+            this.lblCreateNew.Name = "lblCreateNew";
+            this.lblCreateNew.Size = new System.Drawing.Size(77, 15);
+            this.lblCreateNew.TabIndex = 13;
+            this.lblCreateNew.Text = "Create New:";
+            // 
+            // txtBoxAddNewAIField
+            // 
+            this.txtBoxAddNewAIField.Location = new System.Drawing.Point(102, 77);
+            this.txtBoxAddNewAIField.Name = "txtBoxAddNewAIField";
+            this.txtBoxAddNewAIField.Size = new System.Drawing.Size(294, 23);
+            this.txtBoxAddNewAIField.TabIndex = 12;
             // 
             // comboBoxAISelections
             // 
@@ -291,22 +307,6 @@
             this.BtnInputSubmit.TabIndex = 8;
             this.BtnInputSubmit.UseVisualStyleBackColor = true;
             // 
-            // txtBoxAddNewAIField
-            // 
-            this.txtBoxAddNewAIField.Location = new System.Drawing.Point(102, 77);
-            this.txtBoxAddNewAIField.Name = "txtBoxAddNewAIField";
-            this.txtBoxAddNewAIField.Size = new System.Drawing.Size(294, 23);
-            this.txtBoxAddNewAIField.TabIndex = 12;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(23, 80);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(77, 15);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Create New:";
-            // 
             // FormInput
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -358,7 +358,7 @@
         private System.Windows.Forms.TextBox txtBoxXpath;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblCreateNew;
         private System.Windows.Forms.TextBox txtBoxAddNewAIField;
     }
 }
